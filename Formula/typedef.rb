@@ -1,7 +1,7 @@
 class Typedef < Formula
   desc "Convert JSON to type definitions in multiple programming languages"
   homepage "https://github.com/exanubes/typedef"
-  version "0.0.20"
+  version "0.0.21"
   license "MIT"
 
   livecheck do
@@ -11,25 +11,25 @@ class Typedef < Formula
 
   on_macos do
     if Hardware::CPU.arm64?
-      url "https://github.com/exanubes/typedef/releases/download/v0.0.20/typedef-cli-darwin-arm64.tar.gz"
-      sha256 "4557d0b808620d18cb1c6850ef0a8577044a8bf5c5ba2704bbe08ea47d04e69f"
+      url "https://github.com/exanubes/typedef/releases/download/v0.0.21/typedef-cli-darwin-arm64.tar.gz"
+      sha256 "a31661f4d3f4e841e3ff708cddbd53e72cf2ce739cccec55da240307663c314c"
     end
 
     if Hardware::CPU.intel?
-      url "https://github.com/exanubes/typedef/releases/download/v0.0.20/typedef-cli-darwin-amd64.tar.gz"
-      sha256 "089262e6979766208ee7fd5f179c8a8642e0156e90d332641d87a258f4f75b9b"
+      url "https://github.com/exanubes/typedef/releases/download/v0.0.21/typedef-cli-darwin-amd64.tar.gz"
+      sha256 "09765f224e5e9147d83dec2ead6de4b3c66c2cb4486ca054fa6d78e5bca1d532"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm64?
-      url "https://github.com/exanubes/typedef/releases/download/v0.0.20/typedef-cli-linux-arm64.tar.gz"
-      sha256 "965a673d2bcf1e8b7160d21036dd67165f25cd2383f077e1a6ea4779c7d85298"
+      url "https://github.com/exanubes/typedef/releases/download/v0.0.21/typedef-cli-linux-arm64.tar.gz"
+      sha256 "6a6d124f40a0582577afba1ea7cf7cc173d87bd9ffd1e06104b8978c157cd18a"
     end
 
     if Hardware::CPU.intel?
-      url "https://github.com/exanubes/typedef/releases/download/v0.0.20/typedef-cli-linux-amd64.tar.gz"
-      sha256 "dd7a2b05b28e1fa09f49f83d432ae450b67d5a7bdf3891d00bea118aacd8cabb"
+      url "https://github.com/exanubes/typedef/releases/download/v0.0.21/typedef-cli-linux-amd64.tar.gz"
+      sha256 "d2919d9d7e5a5bf3768894c821f2e60f24f5d27524f085350ede968949fc3bd0"
     end
   end
 
